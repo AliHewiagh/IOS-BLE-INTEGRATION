@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359BBEAAEBE33DA7DB5C99E4 /* Pods_BLE_IntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2C7F3118BCB6435D531D12 /* Pods_BLE_IntegrationTests.framework */; };
 		4AD66CE525B558F000CC546F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66CE425B558F000CC546F /* AppDelegate.swift */; };
 		4AD66CE725B558F000CC546F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66CE625B558F000CC546F /* SceneDelegate.swift */; };
-		4AD66CE925B558F000CC546F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66CE825B558F000CC546F /* ViewController.swift */; };
-		4AD66CEC25B558F000CC546F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD66CEA25B558F000CC546F /* Main.storyboard */; };
 		4AD66CEE25B558F300CC546F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD66CED25B558F300CC546F /* Assets.xcassets */; };
 		4AD66CF125B558F300CC546F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD66CEF25B558F300CC546F /* LaunchScreen.storyboard */; };
 		4AD66CFC25B558F400CC546F /* BLE_IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66CFB25B558F400CC546F /* BLE_IntegrationTests.swift */; };
 		4AD66D0725B558F400CC546F /* BLE_IntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66D0625B558F400CC546F /* BLE_IntegrationUITests.swift */; };
+		4AD66D1825B56C6400CC546F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66D1725B56C6400CC546F /* MainViewController.swift */; };
+		D1C9F9387E1EF49F3F765A4A /* Pods_BLE_Integration_BLE_IntegrationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBA93D1E4306504C3A8FAD0 /* Pods_BLE_Integration_BLE_IntegrationUITests.framework */; };
+		FFD859CAEDD5C02ED438691D /* Pods_BLE_Integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD3356FA8091E1290C4F7E3 /* Pods_BLE_Integration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D2A3CAAE42737C647387B17 /* Pods-BLE IntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE IntegrationTests.debug.xcconfig"; path = "Target Support Files/Pods-BLE IntegrationTests/Pods-BLE IntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AD66CE125B558F000CC546F /* BLE Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD66CE425B558F000CC546F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD66CE625B558F000CC546F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4AD66CE825B558F000CC546F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4AD66CEB25B558F000CC546F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AD66CED25B558F300CC546F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AD66CF025B558F300CC546F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AD66CF225B558F300CC546F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,15 @@
 		4AD66D0225B558F400CC546F /* BLE IntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE IntegrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD66D0625B558F400CC546F /* BLE_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLE_IntegrationUITests.swift; sourceTree = "<group>"; };
 		4AD66D0825B558F400CC546F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD66D1725B56C6400CC546F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6DBA93D1E4306504C3A8FAD0 /* Pods_BLE_Integration_BLE_IntegrationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLE_Integration_BLE_IntegrationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911F69633E9F31B8C09BB8E8 /* Pods-BLE Integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE Integration.release.xcconfig"; path = "Target Support Files/Pods-BLE Integration/Pods-BLE Integration.release.xcconfig"; sourceTree = "<group>"; };
+		981DD4F3B0869DA2444CFA07 /* Pods-BLE Integration-BLE IntegrationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE Integration-BLE IntegrationUITests.release.xcconfig"; path = "Target Support Files/Pods-BLE Integration-BLE IntegrationUITests/Pods-BLE Integration-BLE IntegrationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE91863FF6DF9EE2891C89D /* Pods-BLE Integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE Integration.debug.xcconfig"; path = "Target Support Files/Pods-BLE Integration/Pods-BLE Integration.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD3356FA8091E1290C4F7E3 /* Pods_BLE_Integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLE_Integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C7F3118BCB6435D531D12 /* Pods_BLE_IntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLE_IntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A936778427A85E0F9A9C33 /* Pods-BLE IntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE IntegrationTests.release.xcconfig"; path = "Target Support Files/Pods-BLE IntegrationTests/Pods-BLE IntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5C12D84FC47B5E352FD34A9 /* Pods-BLE Integration-BLE IntegrationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLE Integration-BLE IntegrationUITests.debug.xcconfig"; path = "Target Support Files/Pods-BLE Integration-BLE IntegrationUITests/Pods-BLE Integration-BLE IntegrationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD859CAEDD5C02ED438691D /* Pods_BLE_Integration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359BBEAAEBE33DA7DB5C99E4 /* Pods_BLE_IntegrationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C9F9387E1EF49F3F765A4A /* Pods_BLE_Integration_BLE_IntegrationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09C22A892F44AF1F009909B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAD3356FA8091E1290C4F7E3 /* Pods_BLE_Integration.framework */,
+				6DBA93D1E4306504C3A8FAD0 /* Pods_BLE_Integration_BLE_IntegrationUITests.framework */,
+				BE2C7F3118BCB6435D531D12 /* Pods_BLE_IntegrationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4AD66CD825B558F000CC546F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				4AD66CFA25B558F400CC546F /* BLE IntegrationTests */,
 				4AD66D0525B558F400CC546F /* BLE IntegrationUITests */,
 				4AD66CE225B558F000CC546F /* Products */,
+				B8A94F20121EB7980B1B0B25 /* Pods */,
+				09C22A892F44AF1F009909B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +126,7 @@
 			children = (
 				4AD66CE425B558F000CC546F /* AppDelegate.swift */,
 				4AD66CE625B558F000CC546F /* SceneDelegate.swift */,
-				4AD66CE825B558F000CC546F /* ViewController.swift */,
-				4AD66CEA25B558F000CC546F /* Main.storyboard */,
+				4AD66D1725B56C6400CC546F /* MainViewController.swift */,
 				4AD66CED25B558F300CC546F /* Assets.xcassets */,
 				4AD66CEF25B558F300CC546F /* LaunchScreen.storyboard */,
 				4AD66CF225B558F300CC546F /* Info.plist */,
@@ -128,6 +152,20 @@
 			path = "BLE IntegrationUITests";
 			sourceTree = "<group>";
 		};
+		B8A94F20121EB7980B1B0B25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFE91863FF6DF9EE2891C89D /* Pods-BLE Integration.debug.xcconfig */,
+				911F69633E9F31B8C09BB8E8 /* Pods-BLE Integration.release.xcconfig */,
+				F5C12D84FC47B5E352FD34A9 /* Pods-BLE Integration-BLE IntegrationUITests.debug.xcconfig */,
+				981DD4F3B0869DA2444CFA07 /* Pods-BLE Integration-BLE IntegrationUITests.release.xcconfig */,
+				2D2A3CAAE42737C647387B17 /* Pods-BLE IntegrationTests.debug.xcconfig */,
+				D2A936778427A85E0F9A9C33 /* Pods-BLE IntegrationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD66D0B25B558F400CC546F /* Build configuration list for PBXNativeTarget "BLE Integration" */;
 			buildPhases = (
+				A521E05AF57607CA6532CE21 /* [CP] Check Pods Manifest.lock */,
 				4AD66CDD25B558F000CC546F /* Sources */,
 				4AD66CDE25B558F000CC546F /* Frameworks */,
 				4AD66CDF25B558F000CC546F /* Resources */,
+				B4AD08932E2D1157CEEEDED5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD66D0E25B558F400CC546F /* Build configuration list for PBXNativeTarget "BLE IntegrationTests" */;
 			buildPhases = (
+				F7DF4344279838C9F6BF8969 /* [CP] Check Pods Manifest.lock */,
 				4AD66CF325B558F400CC546F /* Sources */,
 				4AD66CF425B558F400CC546F /* Frameworks */,
 				4AD66CF525B558F400CC546F /* Resources */,
@@ -170,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD66D1125B558F400CC546F /* Build configuration list for PBXNativeTarget "BLE IntegrationUITests" */;
 			buildPhases = (
+				D8173FF331D95C794BC723C6 /* [CP] Check Pods Manifest.lock */,
 				4AD66CFE25B558F400CC546F /* Sources */,
 				4AD66CFF25B558F400CC546F /* Frameworks */,
 				4AD66D0025B558F400CC546F /* Resources */,
+				79E2CD1B7A4AADED231D60F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +276,6 @@
 			files = (
 				4AD66CF125B558F300CC546F /* LaunchScreen.storyboard in Resources */,
 				4AD66CEE25B558F300CC546F /* Assets.xcassets in Resources */,
-				4AD66CEC25B558F000CC546F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +295,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79E2CD1B7A4AADED231D60F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLE Integration-BLE IntegrationUITests/Pods-BLE Integration-BLE IntegrationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLE Integration-BLE IntegrationUITests/Pods-BLE Integration-BLE IntegrationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLE Integration-BLE IntegrationUITests/Pods-BLE Integration-BLE IntegrationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A521E05AF57607CA6532CE21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLE Integration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AD08932E2D1157CEEEDED5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLE Integration/Pods-BLE Integration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLE Integration/Pods-BLE Integration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLE Integration/Pods-BLE Integration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8173FF331D95C794BC723C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLE Integration-BLE IntegrationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DF4344279838C9F6BF8969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLE IntegrationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AD66CDD25B558F000CC546F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD66CE925B558F000CC546F /* ViewController.swift in Sources */,
 				4AD66CE525B558F000CC546F /* AppDelegate.swift in Sources */,
 				4AD66CE725B558F000CC546F /* SceneDelegate.swift in Sources */,
+				4AD66D1825B56C6400CC546F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4AD66CEA25B558F000CC546F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4AD66CEB25B558F000CC546F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4AD66CEF25B558F300CC546F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +570,7 @@
 		};
 		4AD66D0C25B558F400CC546F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE91863FF6DF9EE2891C89D /* Pods-BLE Integration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +590,7 @@
 		};
 		4AD66D0D25B558F400CC546F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911F69633E9F31B8C09BB8E8 /* Pods-BLE Integration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +610,7 @@
 		};
 		4AD66D0F25B558F400CC546F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2A3CAAE42737C647387B17 /* Pods-BLE IntegrationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +633,7 @@
 		};
 		4AD66D1025B558F400CC546F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A936778427A85E0F9A9C33 /* Pods-BLE IntegrationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +656,7 @@
 		};
 		4AD66D1225B558F400CC546F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C12D84FC47B5E352FD34A9 /* Pods-BLE Integration-BLE IntegrationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +677,7 @@
 		};
 		4AD66D1325B558F400CC546F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981DD4F3B0869DA2444CFA07 /* Pods-BLE Integration-BLE IntegrationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
